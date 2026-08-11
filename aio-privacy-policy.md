@@ -1,15 +1,7 @@
 ---
 layout: page
 title: "Privacy Policy"
-permalink: /
 ---
-
----
-
-layout: page
-title: "Privacy Policy"
-permalink: /
-------------
 
 # Privacy Policy for AIO
 
