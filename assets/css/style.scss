@@ -2,20 +2,27 @@
 ---
 
 /* --------------------------------------------------
-   AIO Privacy Policy
-   Custom styling
-   -------------------------------------------------- */
+AIO Privacy Policy
+Custom styling
+-------------------------------------------------- */
 
-/* Hide the GitHub/Jekyll site header */
-header {
-  display: none !important;
+/* --------------------------------------------------
+Global
+-------------------------------------------------- */
+
+* {
+  box-sizing: border-box;
 }
 
-/* Page */
+html {
+  background: #ffffff;
+}
+
 body {
   margin: 0;
   background: #ffffff;
   color: #1d1d1f;
+
   font-family:
     -apple-system,
     BlinkMacSystemFont,
@@ -24,42 +31,68 @@ body {
     Helvetica,
     Arial,
     sans-serif;
+
   line-height: 1.6;
 }
 
-/* Main content container */
-.wrapper,
-section {
-  width: auto;
-  max-width: 820px;
-  margin: 0 auto;
-  padding: 56px 28px 80px;
-}
 
 /* --------------------------------------------------
-   Main Privacy Policy title
+Hide the GitHub/Jekyll site header
+-------------------------------------------------- */
 
-   This is intentionally kept simple because you
-   said the title is already resolved.
-   -------------------------------------------------- */
+header {
+  display: none !important;
+}
+
+
+/* --------------------------------------------------
+Main content container
+
+The content is centered and limited to a comfortable
+reading width. This prevents long lines on desktop.
+-------------------------------------------------- */
+
+.wrapper,
+section {
+  width: 100%;
+  max-width: 820px;
+
+  margin-left: auto;
+  margin-right: auto;
+
+  padding: 56px 32px 80px;
+}
+
+
+/* --------------------------------------------------
+Main Privacy Policy title
+
+This is intentionally kept simple because the title
+is already resolved.
+-------------------------------------------------- */
 
 h1 {
   font-size: 38px;
   line-height: 1.2;
   font-weight: 700;
   letter-spacing: -0.7px;
+
   margin: 0 0 20px;
+
   color: #111111;
 }
 
+
 /* --------------------------------------------------
-   Metadata
-   -------------------------------------------------- */
+Metadata
+-------------------------------------------------- */
 
 h1 + p {
   color: #555555;
+
   font-size: 15px;
   line-height: 1.7;
+
   margin-bottom: 42px;
 }
 
@@ -67,53 +100,62 @@ h1 + p strong {
   color: #222222;
 }
 
+
 /* --------------------------------------------------
-   Section headings
-   -------------------------------------------------- */
+Section headings
+-------------------------------------------------- */
 
 h2 {
   font-size: 23px;
   line-height: 1.35;
   font-weight: 650;
   letter-spacing: -0.2px;
+
   color: #171717;
 
   margin-top: 44px;
   margin-bottom: 18px;
 
   padding-bottom: 10px;
+
   border-bottom: 1px solid #e8e8e8;
 }
 
+
 /* --------------------------------------------------
-   Paragraphs
-   -------------------------------------------------- */
+Paragraphs
+-------------------------------------------------- */
 
 p {
   font-size: 16px;
   line-height: 1.75;
+
   margin: 0 0 18px;
 }
 
+
 /* --------------------------------------------------
-   Lists
-   -------------------------------------------------- */
+Lists
+-------------------------------------------------- */
 
 ul {
   margin-top: 10px;
   margin-bottom: 22px;
+
   padding-left: 24px;
 }
 
 li {
   font-size: 16px;
   line-height: 1.7;
+
   margin-bottom: 7px;
 }
 
+
 /* --------------------------------------------------
-   Links
-   -------------------------------------------------- */
+Links
+-------------------------------------------------- */
 
 a {
   color: #1769e0;
@@ -124,18 +166,20 @@ a:hover {
   text-decoration: underline;
 }
 
+
 /* --------------------------------------------------
-   Bold text
-   -------------------------------------------------- */
+Bold text
+-------------------------------------------------- */
 
 strong {
   color: #222222;
   font-weight: 650;
 }
 
+
 /* --------------------------------------------------
-   Inline code
-   -------------------------------------------------- */
+Inline code
+-------------------------------------------------- */
 
 code {
   font-family:
@@ -145,29 +189,38 @@ code {
     monospace;
 
   font-size: 0.9em;
+
   background: #f3f3f3;
+
   padding: 2px 6px;
+
   border-radius: 5px;
 }
 
+
 /* --------------------------------------------------
-   Horizontal rules, if you use them in Markdown
-   -------------------------------------------------- */
+Horizontal rules, if you use them in Markdown
+-------------------------------------------------- */
 
 hr {
   border: 0;
   border-top: 1px solid #e8e8e8;
+
   margin: 36px 0;
 }
 
+
 /* --------------------------------------------------
-   Mobile
-   -------------------------------------------------- */
+Mobile
+-------------------------------------------------- */
 
 @media screen and (max-width: 700px) {
 
   .wrapper,
   section {
+    width: 100%;
+    max-width: 100%;
+
     padding: 36px 20px 60px;
   }
 
