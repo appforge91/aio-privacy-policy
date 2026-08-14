@@ -6,10 +6,6 @@ AIO Privacy Policy
 Custom styling
 -------------------------------------------------- */
 
-/* --------------------------------------------------
-Global
--------------------------------------------------- */
-
 * {
   box-sizing: border-box;
 }
@@ -47,13 +43,9 @@ header {
 
 /* --------------------------------------------------
 Main content container
-
-The content is centered and limited to a comfortable
-reading width. This prevents long lines on desktop.
 -------------------------------------------------- */
 
-.wrapper,
-section {
+.privacy-page {
   width: 100%;
   max-width: 820px;
 
@@ -66,9 +58,6 @@ section {
 
 /* --------------------------------------------------
 Main Privacy Policy title
-
-This is intentionally kept simple because the title
-is already resolved.
 -------------------------------------------------- */
 
 h1 {
@@ -199,7 +188,7 @@ code {
 
 
 /* --------------------------------------------------
-Horizontal rules, if you use them in Markdown
+Horizontal rules
 -------------------------------------------------- */
 
 hr {
@@ -216,10 +205,12 @@ Mobile
 
 @media screen and (max-width: 700px) {
 
-  .wrapper,
-  section {
+  .privacy-page {
     width: 100%;
     max-width: 100%;
+
+    margin-left: 0;
+    margin-right: 0;
 
     padding: 36px 20px 60px;
   }
